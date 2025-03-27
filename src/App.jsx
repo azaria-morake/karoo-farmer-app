@@ -499,8 +499,7 @@ function App() {
             <Modal>
               {activeModal.type === 'crop' ? (
                 <>
-                  <h2>{activeModal.data?.name || 'New Crop'}</h2>
-                  
+                  <h2>{activeModal.data?.name || 'Preview mode. Feature not yet available.'}</h2>                  
                   {activeModal.data && (
                     <>
                       <img 
